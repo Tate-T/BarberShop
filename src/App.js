@@ -7,6 +7,9 @@ import { About } from './components/About/About.jsx'
 import { Prices } from './components/Prices/Prices.jsx';
 import { Why } from "./components/Why/Why.jsx";
 import { Barbers } from './components/Barbers/Barbers.jsx';
+import { Gallery } from './components/Gallery/Gallery.jsx';
+import { Footer } from "./components/Footer/Footer.jsx";
+import { MobileMenu } from './components/MobileMenu/MobileMenu.jsx';
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
         <Prices/>
         <Why/>
         <Barbers/>
+        <Gallery/>
       </main>
+      <Footer/>
+      <MobileMenu/>
     </div>
   );
 }
