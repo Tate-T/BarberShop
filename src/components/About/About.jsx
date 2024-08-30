@@ -1,3 +1,5 @@
+import about1 from "../../img/about1.webp"
+import about2 from "../../img/about2.webp"
 
 import { Container } from "../Container/Container"
 
@@ -7,8 +9,8 @@ export const About = () => {
         <section>
             <Container>
                 <ul>
-                    <li><img src="./img/img-1.jpg" alt="barber1" /></li>
-                    <li><img src="../../img/img-1.jpg" alt="barber2" /></li>
+                    <li><img src={about1} alt="barber1" /></li>
+                    <li><img src={about2} alt="barber2" /></li>
                 </ul>
                 <article>
                     <p>ABOUT</p>

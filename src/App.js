@@ -6,6 +6,7 @@ import {Hero} from './components/Hero/Hero.jsx'
 import { About } from './components/About/About.jsx'
 import { Prices } from './components/Prices/Prices.jsx';
 import { Why } from "./components/Why/Why.jsx";
+import { Barbers } from './components/Barbers/Barbers.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About/>
         <Prices/>
         <Why/>
+        <Barbers/>
       </main>
     </div>
   );
