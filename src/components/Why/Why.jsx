@@ -1,6 +1,8 @@
+import { Container } from "../Container/Container"
 export const Why = () => {
     return (
         <section>
+            <Container>
             <ul>
                 <li>
                     <p>600</p>
@@ -25,6 +27,7 @@ export const Why = () => {
                 <h2>Why people come to us?</h2>
                 <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
             </article>
+            </Container>
         </section>
     )
 }

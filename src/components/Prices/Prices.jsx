@@ -1,6 +1,10 @@
+
+import { Container } from "../Container/Container"
+
 export const Prices = () => {
     return (
         <section>
+            <Container>
             <h3>Spend your time with the best masters</h3>
             <h2>Services and prices</h2>
             <ul>
@@ -38,6 +42,7 @@ export const Prices = () => {
                 </li>
             </ul>
             <button type="button">Online-booking</button>
+            </Container>
         </section>
     )
 
