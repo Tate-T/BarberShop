@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/barber-shop/static/css/main.f855e6bc.css",
+    "main.js": "/barber-shop/static/js/main.65c43ad3.js",
+    "static/media/gallery1.webp": "/barber-shop/static/media/gallery1.d20070448db83c0d810d.webp",
+    "static/media/about1.webp": "/barber-shop/static/media/about1.d055d0b20de9597acb1e.webp",
+    "static/media/gallery3.webp": "/barber-shop/static/media/gallery3.2ccf1b38f4120dea4368.webp",
+    "static/media/gallery4.webp": "/barber-shop/static/media/gallery4.2c51f152c6a0423cde84.webp",
+    "static/media/barber1.webp": "/barber-shop/static/media/barber1.f1e2967f3a0d791889c1.webp",
+    "static/media/barber2.webp": "/barber-shop/static/media/barber2.59949b74c8a0403e7ba3.webp",
+    "static/media/gallery2.webp": "/barber-shop/static/media/gallery2.4d00163261d558297f78.webp",
+    "static/media/barber3.webp": "/barber-shop/static/media/barber3.8dcbc17c532dbe4a614b.webp",
+    "static/media/about2.webp": "/barber-shop/static/media/about2.c2b6ce203264f2ea4d25.webp",
+    "static/media/symbol-defs.svg": "/barber-shop/static/media/symbol-defs.fec38c032bf7b3d95f4062ee88b8638c.svg",
+    "index.html": "/barber-shop/index.html",
+    "main.f855e6bc.css.map": "/barber-shop/static/css/main.f855e6bc.css.map",
+    "main.65c43ad3.js.map": "/barber-shop/static/js/main.65c43ad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.65c43ad3.js"
+  ]
+}
