@@ -1,7 +1,7 @@
 
 export const Container = ({children, test = "apple"}) => {
-    console.log(test);
-    console.log(children);
+    // console.log(test);
+    // console.log(children);
     
     return (
         <div>

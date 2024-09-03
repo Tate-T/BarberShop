@@ -1,4 +1,5 @@
 import { Container } from "../Container/Container";
+import PropTypes from 'prop-types'
 
 export const Footer = () => {
   return (
