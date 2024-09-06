@@ -1,0 +1,41 @@
+.header{
+    background-color: black;
+    padding-top: 52px;
+}
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.header__link {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+.header__link:hover {
+    color: #FF6C00;
+}
+.header__number{
+    color: #FFF;
+}
+.header__btn{
+    margin-left: 40px;
+    color: #FFF;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 1.08px;
+text-transform: uppercase;
+border-radius: 25px;
+border: 1px solid #FF6C00;
+}

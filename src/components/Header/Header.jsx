@@ -1,21 +1,35 @@
 
 import { Container } from "../Container/Container"
-
+import style from "./Header.module.css"
 
 export const Header = () => {
     return (
-        <header>
+        <header className={style.header}>
             <Container>
-            <ul>
-                <a href="">About</a>
-                <a href="">Services and prices</a>
-                <a href="">Barbers</a>
-                <a href="">Contacts</a>
-            </ul>
-            <div>
-                <a href="tel:+380441111111">+38 044 111 11 11</a>
-                <button>ONLINE-BOOKING</button>
-            </div>
+                <div className={style.header_wrap}>
+                <ul className={style.menu}>
+                    <li className={style.item}>
+                        <a className={style.header__link} href="">About</a>
+                    </li>
+                    <li className={style.item}>
+                        <a className={style.header__link} href="">Services and prices</a>
+
+                    </li>
+                    <li className={style.item} >
+                        <a className={style.header__link} href="">Barbers</a>
+
+                    </li>
+                    <li className={style.item}>
+                        <a className={style.header__link} href="">Contacts</a>
+
+                    </li>
+
+                </ul>
+                <div className={style.header__info}>
+                    <a className={style.header__number} href="tel:+380441111111">+38 044 111 11 11</a>
+                    <button className={style.header__btn} >ONLINE-BOOKING</button>
+                </div>
+                </div>
             </Container>
         </header>
     )
