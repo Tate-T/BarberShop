@@ -1,6 +1,10 @@
 .header{
-    background-color: black;
+    /* background-color: black; */
     padding-top: 52px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 .header_wrap{
     display: flex;
