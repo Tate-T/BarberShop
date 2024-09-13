@@ -7,8 +7,8 @@ export const Hero = () => {
             <Container>
                 <div className={style.hero_container}>
                     <ul className={style.list}>
-                        <li className={style.item1}><a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Instagram</a></li>
-                        <li className={style.item2}><a href="https://m.youtube.com/" target="_blank" rel="noreferrer noopener">Youtube</a></li>
+                        <li className={style.item}><a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">Instagram</a></li>
+                        <li className={style.item}><a href="https://m.youtube.com/" target="_blank" rel="noreferrer noopener">Youtube</a></li>
                     </ul>
                     <div className={style.hero_box}>
                         <div className={style.container_title}>

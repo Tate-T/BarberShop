@@ -1,0 +1,102 @@
+
+.pricesSection {
+    background: #111319;
+    background-image: url(../../img/pricesBg.webp);
+}
+
+.pricesSubTitle {
+    color: #9DA4BD99;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    outline: solid pink;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.pricesSubTitle:before {
+    content: "";
+    background-color: #9DA4BD99;
+    width: 60px;
+    height: 1px;
+}
+
+.pricesTitle {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px; /* 116.667% */
+    letter-spacing: 2.1px;
+    text-align: left;
+}
+
+.pricesItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricesItem>h3 {
+    color: #9DA4BD;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.pricesItem > h3::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #dce9e133;
+    flex-grow: 1;
+    
+    /* display: block; */
+}
+
+.pricesItem>p {
+    color: #9DA4BD;
+    text-align: right;  
+    /* Main text/theme-dark */
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.36px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+.list {
+    column-count: 2
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -32,9 +32,10 @@
     align-items: flex-end;
     justify-content: flex-end;
     transform: rotate(-90deg);
+    outline: 1px solid purple;
 }
 
-.item1 {
+.item {
     color: #303030;
     /* Small text/theme-light */
     font-family: "Open Sans";
@@ -46,17 +47,9 @@
 
 }
 
-.item2 {
-    color: #FF6C00;
-    /* Small text/theme-light */
-    font-family: "Open Sans";
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 15px; /* 136.364% */
-    letter-spacing: 2.2px;
 
-}
+
+
 
 .hero_container {
     display: flex;
