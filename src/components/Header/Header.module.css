@@ -1,4 +1,4 @@
-.header{
+.header {
     /* background-color: black; */
     padding-top: 52px;
     position: absolute;
@@ -6,16 +6,19 @@
     right: 0;
     width: 100%;
 }
-.header_wrap{
+
+.header_wrap {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.menu{
+
+.menu {
     display: flex;
-    gap:30px;
+    gap: 30px;
     justify-content: center;
 }
+
 .header__link {
     color: #FFF;
     font-size: 12px;
@@ -24,22 +27,41 @@
     line-height: normal;
     letter-spacing: 1.2px;
 }
+
 .header__link:hover {
     color: #FF6C00;
 }
-.header__number{
+
+.header__number {
     color: #FFF;
 }
-.header__btn{
+
+.header__number:hover {
+    color: #FF6C00;
+}
+
+.header__btn {
+    font-family: inherit;
     margin-left: 40px;
     color: #FFF;
-text-align: center;
-font-size: 12px;
-font-style: normal;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 1.08px;
-text-transform: uppercase;
-border-radius: 25px;
-border: 1px solid #FF6C00;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header__btn:hover {
+    background-color: #FF6C00;
 }

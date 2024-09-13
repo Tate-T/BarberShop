@@ -1,0 +1,102 @@
+.about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.aboutWrap {
+    display: flex;
+}
+
+.aboutList {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.aboutArticle {
+    text-align: start;
+    max-width: 470px;
+}
+
+.aboutItem {
+    width: 270px;
+    height: 445px;
+    flex-shrink: 0;
+
+}
+
+.aboutSubtitle {
+    color: #303030;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutSubtitle::before{
+    content: "";
+    height: 1px;
+    width: 60px;
+    background: black;
+    
+}
+.aboutTitle {
+    color: #303030;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 2.1px;
+    margin-top: 20px;
+}
+
+.aboutText {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    margin-top: 20px;
+
+}
+
+.aboutText+.aboutText {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+}
+
+.buttonAbout {
+    display: block;
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+    padding: 12px 19px;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    margin-top: 42px;
+}
+
+.buttonAbout:hover {
+    background-color: #FF6C00;
+}
