@@ -1,0 +1,91 @@
+
+.whySection {
+    padding: 120px 0;
+}
+
+.whyContainer {
+    display: flex;
+}
+
+.whyList {
+    column-count: 2;
+    padding: 0 100px;
+    margin-right: 30px;
+}
+
+.whyItem {
+    width: 170px;
+    height: 133px;
+
+    background: #F7F7F7;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.whyNumber {
+    color: #303030;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 2.1px;
+}
+
+.whyInfo {
+    color: #303030;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+/* ======================================================= */
+
+.whySubTitle {
+    color: #303030;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.whySubTitle::before {
+    content: "";
+    background-color: #9DA4BD99;
+    width: 60px;
+    height: 1px;
+}
+
+.whyTitle {
+    color: #303030;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 2.1px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.whyText {
+    color: #555;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+
+
+
+
+
+

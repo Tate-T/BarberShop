@@ -1,0 +1,83 @@
+
+.barbersSection {
+    padding: 120px 0;
+}
+
+.barbersSubTitle {
+    color: #303030;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.barbersSubTitle::before {
+    content: "";
+    background-color: #9DA4BD99;
+    width: 60px;
+    height: 1px;
+}
+
+.barbersTitle {
+    color: #303030;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 2.1px;
+    text-align: left;
+    margin-bottom: 44px;
+}
+
+.barbersList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barbersImg{
+    width: 370px;
+    height: 346px;
+}
+
+.barbersName {
+    color: #303030;
+    text-align: center;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    margin: 30px 0 3px;
+}
+
+.barbersProfession {
+    color: #FF6C00;
+    text-align: center;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.28px;
+    margin-bottom: 30px;
+}
+
+.barbersListIcons {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.barbersItemIcons>a>svg {
+    width: 20px;
+    height: 20px;
+}
+

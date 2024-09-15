@@ -1,0 +1,28 @@
+.buttonAbout {
+    display: block;
+
+    color: #bd2b2b;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+
+    padding: 12px 19px;
+    margin-top: 42px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonAbout:hover {
+    background-color: #FF6C00;
+    color: #303030;
+}

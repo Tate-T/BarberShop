@@ -77,15 +77,10 @@
     letter-spacing: 0.28px;
 }
 
-.buttonAbout {
+/* .buttonAbout {
     display: block;
-    border-radius: 25px;
-    border: 1px solid #FF6C00;
-    background-color: transparent;
-    padding: 12px 19px;
-    justify-content: center;
-    align-items: center;
-    color: #303030;
+
+    color: #FFFFFF;
     text-align: center;
     font-family: inherit;
     font-size: 12px;
@@ -94,9 +89,19 @@
     line-height: 16px;
     letter-spacing: 1.08px;
     text-transform: uppercase;
-    margin-top: 42px;
-}
 
-.buttonAbout:hover {
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+
+    padding: 12px 19px;
+    margin-top: 42px;
+
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .buttonAbout:hover {
     background-color: #FF6C00;
-}
+    color: #303030;
+} */

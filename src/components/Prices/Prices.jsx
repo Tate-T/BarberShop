@@ -1,5 +1,6 @@
 
 import { Container } from "../Container/Container"
+import { ButtonBooking } from "../ButtonBooking/ButtonBooking"
 import style from "../Prices/Prices.module.css"
 
 export const Prices = () => {
@@ -8,7 +9,7 @@ export const Prices = () => {
             <Container>
             <h3 className={style.pricesSubTitle}>Spend your time with the best masters</h3>
             <h2 className={style.pricesTitle}>Services and prices</h2>
-            <ul className={style.list}>
+            <ul className={style.priceList}>
                 <li className={style.pricesItem}>
                     <h3>Men’s haircut</h3>
                     <p>from 300 uah.</p>
@@ -42,7 +43,9 @@ export const Prices = () => {
                     <p>from 200 uah.</p>
                 </li>
             </ul>
-            <button type="button">Online-booking</button>
+            {/* <button type="button">Online-booking</button> */}
+            <ButtonBooking btnText="Online-booking"/>
+
             </Container>
         </section>
     )
