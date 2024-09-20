@@ -1,10 +1,19 @@
 
 .container {
-    outline: solid rgb(193, 221, 30);
     padding: 0 15px;
     width: 1200px;
     margin: 0 auto;
+    outline: solid red;
 }
 
+footer .container {
+    display: flex;
+    gap: 130px;
+}
 
+.footerCopyright .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 

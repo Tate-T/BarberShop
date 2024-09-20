@@ -1,7 +1,8 @@
+import style from './MobileMenu.module.css'
 
 export const MobileMenu = () => {
     return (
-        <div>
+        <div className={style.section}>
             <ul>
                 <li>
                     <p>About</p>
