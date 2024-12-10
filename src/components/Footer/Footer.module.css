@@ -1,4 +1,3 @@
-
 .footer {
     background-color: #111319;
 
@@ -40,7 +39,8 @@
     outline: none;
     border: none;
     background-color: transparent;
-    border-bottom: 1px solid rgba(157, 164, 189, 0.40);    ;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.40);
+    ;
     box-shadow: none;
     color: white;
     width: 100%;
@@ -72,7 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .footerList li {
@@ -98,13 +98,13 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: left;
-    
+
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.footerHours::before{
+.footerHours::before {
     content: " ";
     width: 60px;
     height: 1px;
@@ -135,7 +135,8 @@
 
 }
 
-.footerCopyright p,a {
+.footerCopyright p,
+a {
     font-size: 11px;
     font-style: normal;
     font-weight: 600;
@@ -172,4 +173,23 @@
     background-color: #303030;
 }
 
+.formInputTitle {
+    color: white;
+    bottom: 23px;
+    left: 0;
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    line-height: 12.26px;
+    opacity: 0;
+}
 
+.wrapInput {
+    position: relative;
+}
+.footerInput:focus + .formInputTitle{
+    opacity: 1;
+}
+.footerInput:focus::placeholder{
+    opacity: 0;
+}

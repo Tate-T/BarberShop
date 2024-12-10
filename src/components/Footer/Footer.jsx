@@ -1,20 +1,57 @@
 import { Container } from "../Container/Container";
 import style from './Footer.module.css'
 import icons from '../../img/symbol-defs.svg'
+import { useState } from "react";
 
 export const Footer = () => {
+  const [formData, setFormData] = useState([])
+  const [client, setClient] = useState({
+    name: '',
+    phone: '',
+    message: '',
+  })
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    const clientData = {
+      name: event.target.elements.name.value,
+      phone: event.target.elements.phone.value,
+      message: event.target.elements.message.value,
+    }
+    if (!clientData.name || !clientData.phone) {
+      alert("Заповніть всі обов'язкові поля")
+    }
+    else {
+      setClient(clientData)
+      formData.push(client)
+      alert("Дякую за реєстрацію!!!")
+    }
+
+  }
+  console.log(client)
+
   return (
     <footer className={style.footer}>
-        <div className={style.footerContainer}>
-          <Container>
+      <div className={style.footerContainer}>
+        <Container>
           <div className={style.footerBooking}>
             <h2 className={style.footerTitle}>Online-booking</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className={style.footerInputs}>
-                <input type="text" className={style.footerInput}/>
-                <input type="text" className={style.footerInput}/>
+                <div className={style.wrapInput}>
+                  <input placeholder="NAME*" type="text" name="name" className={style.footerInput} />
+                  <label className={style.formInputTitle}>NAME*</label>
+                </div>
+                <div className={style.wrapInput}>
+
+                  <input placeholder="PHONE*" type="text" name="phone" className={style.footerInput} />
+                  <label className={style.formInputTitle}>PHONE*</label>
+                </div>
               </div>
-              <input type="text" className={style.footerInput}/>
+              <div className={style.wrapInput}>
+
+                <input placeholder="MESSAGE" type="text" name="message" className={style.footerInput} />
+                <label className={style.formInputTitle}>MESSAGE</label>
+              </div>
               <button type="submit" className={style.footerButton}>send</button>
             </form>
           </div>
@@ -47,21 +84,21 @@ export const Footer = () => {
             <p className={style.footerHours}>Working hours</p>
             <p className={style.footerDays}>Every day from 9:00 to 22:00</p>
           </div>
-          </Container>
-        </div>
-        <div className={style.footerCopyright}>
-          <Container>
-            <p>Copyright 2023</p>
-            <ul className={style.footerListLinks}>
-              <li>
-                <a href="https://www.instagram.com/" className={style.footerLink}>Instagram</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" >Youtube</a>
-              </li>
-            </ul>
-          </Container>
-        </div>
+        </Container>
+      </div>
+      <div className={style.footerCopyright}>
+        <Container>
+          <p>Copyright 2023</p>
+          <ul className={style.footerListLinks}>
+            <li>
+              <a href="https://www.instagram.com/" className={style.footerLink}>Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" >Youtube</a>
+            </li>
+          </ul>
+        </Container>
+      </div>
     </footer>
   );
 };
