@@ -17,8 +17,8 @@ export const Hero = () => {
                             <p className={style.hero_description}>We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
                         </div>
                         <ul className={style.list_button}>
-                            <button type="button" className={style.back}>Back</button>
-                            <button type="button" className={style.forward}>Forward</button>
+                            <li><button type="button" className={style.back}>Back</button></li>
+                            <li><button type="button" className={style.forward}>Forward</button></li>
                         </ul>
                     </div>
                 </div>

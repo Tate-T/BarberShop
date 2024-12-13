@@ -182,14 +182,24 @@ a {
     position: absolute;
     line-height: 12.26px;
     opacity: 0;
+    transition: opacity 500ms linear, transform 500ms linear;
+    transform: translateY(23px);
 }
 
 .wrapInput {
     position: relative;
 }
+.footerInput {
+    opacity: 1;
+}
+.footerInput::placeholder {
+    transition: opacity 500ms linear;
+}
 .footerInput:focus + .formInputTitle{
     opacity: 1;
+    transform: translateY(0);
 }
 .footerInput:focus::placeholder{
     opacity: 0;
+
 }

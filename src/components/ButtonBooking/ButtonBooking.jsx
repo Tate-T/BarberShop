@@ -7,7 +7,7 @@ export const ButtonBooking = ({ btnText }) => {
     // console.log(btnText);
 
     return (
-        <button className={style.buttonAbout}>{btnText}</button>
+        <a className={style.buttonAbout} href='#footer'>{btnText}</a>
     )
 }
 

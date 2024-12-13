@@ -30,7 +30,7 @@ export const Footer = () => {
   console.log(client)
 
   return (
-    <footer className={style.footer}>
+    <footer id="footer" className={style.footer}>
       <div className={style.footerContainer}>
         <Container>
           <div className={style.footerBooking}>

@@ -27,7 +27,7 @@ export const Header = () => {
                 </ul>
                 <div className={style.header__info}>
                     <a className={style.header__number} href="tel:+380441111111">+38 044 111 11 11</a>
-                    <button className={style.header__btn} >ONLINE-BOOKING</button>
+                    <a href="#footer" className={style.header__btn} >ONLINE-BOOKING</a>
                 </div>
                 </div>
             </Container>
